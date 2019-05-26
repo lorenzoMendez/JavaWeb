@@ -1,0 +1,9 @@
+package com.lorenzo.controller;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class DemoController {
+	
+	@GetMapping("/greeting")
+}

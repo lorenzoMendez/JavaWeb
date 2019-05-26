@@ -1,0 +1,5 @@
+package com.lorenzo.reporitorio;
+
+public interface IPersona {
+
+}

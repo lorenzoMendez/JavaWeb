@@ -1,0 +1,5 @@
+package com.lorenzo.service;
+
+public class IPersonaService {
+
+}

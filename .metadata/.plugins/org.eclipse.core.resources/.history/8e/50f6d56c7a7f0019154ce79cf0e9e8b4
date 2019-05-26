@@ -1,0 +1,13 @@
+package com.lorenzo;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class DemoConsolaApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(DemoConsolaApplication.class, args);
+	}
+
+}

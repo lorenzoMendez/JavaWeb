@@ -1,0 +1,8 @@
+package com.lorenzo.reporitory;
+
+// Se crea una interfaz
+public interface IPersonaRepo {
+	
+	void registrar( String nombre );
+
+}

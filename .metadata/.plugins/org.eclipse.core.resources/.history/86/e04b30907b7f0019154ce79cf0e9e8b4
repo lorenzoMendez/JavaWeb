@@ -1,0 +1,16 @@
+package com.lorenzo.reporitorio;
+
+import org.slf4j.LoggerFactory;
+
+import com.lorenzo.DemoConsolaApplication;
+
+public class PersonaRepoImpl implements IPersona{
+	
+	private static Logger LOG = LoggerFactory.getLogger( DemoConsolaApplication.class )
+	
+	@Override
+	public void registrar( String nombre ) {
+		
+	}
+	
+}

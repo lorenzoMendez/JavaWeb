@@ -1,0 +1,11 @@
+package com.lorenzo.reporitorio;
+
+public class PersonaRepoImpl implements IPersona{
+
+	
+	@Override
+	public void registrar( String nombre ) {
+		
+	}
+	
+}

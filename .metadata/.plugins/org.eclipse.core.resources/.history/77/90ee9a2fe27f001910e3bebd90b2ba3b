@@ -1,0 +1,10 @@
+package com.lorenzo.repo;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.lorenzo.model.Persona;
+
+public interface IPersonaRepo extends JpaRepository<Persona, Integer>{
+	
+	
+}

@@ -1,0 +1,10 @@
+package com.lorenzo.service;
+
+public class PersonaServiceImpl implements IPersonaService {
+
+	@Override
+	public void registrar(String nombre) {
+		
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.lorenzo.repo;
+
+public interface IPersonaRepo extends JpaRepository{
+
+}

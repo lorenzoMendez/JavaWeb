@@ -1,0 +1,19 @@
+package com.lorenzo.service;
+
+import org.springframework.stereotype.Service;
+
+import com.lorenzo.reporitory.IPersonaRepo;
+import com.lorenzo.reporitory.PersonaRepoImpl;
+
+@Service
+public class PersonaServiceImpl implements IPersonaService {
+
+	private IPersonaRepo repo;
+	
+	@Override
+	public void registrar(String nombre) {
+		repo = new PersonaRepoImpl();
+		repo.registrar(nombre);
+	}
+
+}

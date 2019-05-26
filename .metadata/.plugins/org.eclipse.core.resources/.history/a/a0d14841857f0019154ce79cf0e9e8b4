@@ -1,0 +1,15 @@
+package com.lorenzo.service;
+
+import com.lorenzo.reporitory.IPersonaRepo;
+
+public class PersonaServiceImpl implements IPersonaService {
+
+	private IPersonaRepo repo;
+	
+	@Override
+	public void registrar(String nombre) {
+		repo = new IPersonaRepo();
+		repo.registrar(nombre);
+	}
+
+}

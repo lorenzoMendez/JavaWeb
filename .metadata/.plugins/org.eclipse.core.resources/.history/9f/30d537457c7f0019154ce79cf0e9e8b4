@@ -1,0 +1,7 @@
+package com.lorenzo.reporitory;
+
+public interface IPersonaRepo {
+	
+	void registrar( String nombre );
+
+}

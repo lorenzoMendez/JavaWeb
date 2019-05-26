@@ -1,0 +1,8 @@
+spring.jpa.database=MYSQL
+spring.jpa.show-sql=false
+spring.jpa.hibernate.ddl-auto=update
+spring.datasource.driver-class-name=org.postgresql.Driver
+spring.datasource.url:jdbc:postgresql://localhost/cineapp
+spring.datasource.username=root
+spring.datasource.password=
+spring.jpa.properties.hibernate.jdbc.lon,non_contextual_creation=true
