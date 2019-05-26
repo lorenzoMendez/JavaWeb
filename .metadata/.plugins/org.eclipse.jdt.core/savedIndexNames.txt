@@ -42,10 +42,8 @@ INDEX VERSION 1.131+C:\Users\Xideral107\Desktop\Spring Boot\.metadata\.plugins\o
 1624186543.index
 2384436081.index
 513539907.index
-1827871468.index
 3032694404.index
 975546845.index
-1609827689.index
 2556912247.index
 2624726496.index
 3435648363.index
