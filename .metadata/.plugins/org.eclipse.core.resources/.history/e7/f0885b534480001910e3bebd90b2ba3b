@@ -1,0 +1,12 @@
+package com.lorenzo;
+
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class SecurityConfig {
+	
+	@Bean
+	public BCryptPassWordEncoder passwordEncoder() {
+		
+	}
+}

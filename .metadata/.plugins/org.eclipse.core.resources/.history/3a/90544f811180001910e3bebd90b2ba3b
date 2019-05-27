@@ -1,0 +1,7 @@
+package com.lorenzo.rest;
+
+
+@RestController
+public class RestoDemoController {
+
+}

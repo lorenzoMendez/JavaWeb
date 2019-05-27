@@ -1,0 +1,9 @@
+package com.lorenzo.repo;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+												// Entidad,  LlavePrimaria 
+public interface IUsuarioRepo extends JpaRepository<Usuario, Integer>{
+	
+	
+}

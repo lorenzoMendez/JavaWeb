@@ -1,0 +1,21 @@
+package com.lorenzo.rest;
+
+import java.util.List;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.lorenzo.model.Persona;
+import com.lorenzo.repo.IPersonaRepo;
+
+@RestController
+public class RestoDemoController {
+
+	private IPersonaRepo repo;
+	
+	@GetMapping
+	public List<Persona> Listar() {
+		
+		return repo.findAll();
+	}
+}
